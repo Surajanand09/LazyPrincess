@@ -26,7 +26,7 @@ async def start(client, message):
                 InlineKeyboardButton('😍 Main Channel 😍', url='https://t.me/F24KRC3ArKtmMDk1')
             ],
             [
-                InlineKeyboardButton('🦾 Bot Updates 🦾', url='https://t.me/+3DSjlEqkrhw0NmY1'),
+                InlineKeyboardButton('🔥 Chat Me 🔥', url='https://t.me/+3DSjlEqkrhw0NmY1'),
             ],[
                 InlineKeyboardButton(text=DOWNLOAD_TEXT_NAME,url=DOWNLOAD_TEXT_URL)
             ]
@@ -47,7 +47,7 @@ async def start(client, message):
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ],[
             InlineKeyboardButton(' 😍 Main Channel 😍', url='https://t.me/F24KRC3ArKtmMDk1'),
-            InlineKeyboardButton('🦾 Bot Updates',  url='https://t.me/+3DSjlEqkrhw0NmY1')
+            InlineKeyboardButton('🔥 Chat Me 🔥',  url='https://t.me/+3DSjlEqkrhw0NmY1')
             ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
@@ -71,7 +71,7 @@ async def start(client, message):
             ],
              [
                 InlineKeyboardButton(
-                    "🦋 SUBSCRIBE YT Channel 🦋", url='https://youtube.com/@LazyDeveloperr'
+                    "🦋 SUBSCRIBE Main Channel 🦋", url='https://t.me/F24KRC3ArKtmMDk1'
                 )
             ]
         ]
@@ -94,17 +94,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕↖️ Add Me To Your Groups ↗️➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
-            InlineKeyboardButton('🧞‍♀️ Search 🧐', switch_inline_query_current_chat=''),
-            InlineKeyboardButton('🔔 Updates 🤖', url='https://t.me/LazyDeveloper')
-            ],[
-            InlineKeyboardButton('🙆🏻 Help 🦾', callback_data='help'),
-            InlineKeyboardButton('♥️ About ♥️', callback_data='about')
-        ],[
-            InlineKeyboardButton('🔗 More Help ', callback_data='leech_url_help'),
-            InlineKeyboardButton('⚙ Open Settings ', callback_data='openSettings'),
-            ],
-        [
-            InlineKeyboardButton('⪦ Learn BOT Making ⪧', url='https://youtube.com/@Lazydeveloperr')
+            InlineKeyboardButton('⚡ Main Channel ⚡', url='https://t.me/F24KRC3ArKtmMDk1'),
+            InlineKeyboardButton('🔥 Chat Me 🔥', url='https://t.me/+3DSjlEqkrhw0NmY1')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await message.reply_photo(
