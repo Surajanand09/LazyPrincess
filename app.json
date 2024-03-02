@@ -1,5 +1,5 @@
 {
-    "name": "LazyPrincess",
+    "name": "MoviesDhamaka",
     "description": "When you going to send file on telegram channel this bot will save that in database, So you can search that easily in inline mode",
     "stack": "container",
     "keywords": [
@@ -23,11 +23,11 @@
             "required": true
         },
         "API_ID": {
-            "description": "21224265",
+            "description": "Get this value from https://my.telegram.org",
             "required": true
         },
         "API_HASH": {
-            "description": "f07513f20601bd795de0989bf1463270",
+            "description": "Get this value from https://my.telegram.org",
             "required": true
         },
         "CHANNELS": {
